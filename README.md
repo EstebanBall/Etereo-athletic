@@ -13,3 +13,5 @@ El proyecto utiliza una estructura de carpetas basada en funcionalidades (Featur
 Progreso actual
 
 dia 1: Configuración inicial, limpieza de boilerplate, creación de componentes UI base y maquetación de la Home Page con grid de productos estático.
+
+dia 2: Se agregan las rutas de imagen para visualizarlas, y se usan las rutas, se crea categoryFilters para una logica de botones y de busqueda. Se añadieron comentarios para comprender mejor el proceso del codigo"
