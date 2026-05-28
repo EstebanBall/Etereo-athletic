@@ -1,5 +1,6 @@
 import { Product } from '../types/product';
 import { Button } from '@/components/ui/Button';
+import Image from 'next/image';
 
 interface ProductCardProps {
   product: Product;
@@ -8,9 +9,14 @@ interface ProductCardProps {
 export const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <div className="bg-white border border-slate-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow">
-      {/* Espacio para la imagen */}
-      <div className="h-48 bg-slate-100 flex items-center justify-center">
-        <span className="text-slate-400 text-sm">Imagen: {product.name}</span>
+      <div className="h-48 bg-slate-100 relative overflow-hidden">
+        <Image 
+        src={product.url}
+        alt={product.name}
+        fill
+        className='object-cover'
+        sizes='(max-width: 768px) 100vw, (max-with: 1200px) 50vw, 33vw'
+        />
       </div>
       
       <div className="p-4">

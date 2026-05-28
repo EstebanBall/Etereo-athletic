@@ -7,16 +7,16 @@ import { Product } from '@/features/catalog/types/product';
 
 
 const MOCK_PRODUCTS : Product [] = [
-  { id: '1', name: 'Proteína Whey ISO', price: 55.99, category: 'Proteínas', image: '', description: 'Aislado de proteína de suero de alta pureza.' },
-  { id: '2', name: 'Creatina Monohidratada', price: 29.99, category: 'Aminoácidos', image: '', description: 'Mejora tu fuerza y recuperación muscular.' },
-  { id: '3', name: 'Pre-Entreno Explosivo', price: 34.99, category: 'Energía', image: '', description: 'Enfoque máximo para tus entrenamientos intensos.' },
-  { id: '4', name: 'Multivitamínico Pro', price: 19.99, category: 'Salud', image: '', description: 'Todas las vitaminas y minerales esenciales.' },
-  { id: '5', name: 'BCAA 2:1:1 Recovery', price: 24.99, category: 'Aminoácidos', image: '', description: 'Aminoácidos ramificados para proteger la masa muscular.' },
-  { id: '6', name: 'Proteína Vegana Organics', price: 42.50, category: 'Proteínas', image: '', description: 'Mezcla premium de guisante y arroz de origen orgánico.' },
-  { id: '7', name: 'Omega 3 Ultra Pure', price: 15.99, category: 'Salud', image: '', description: 'Ácidos grasos esenciales para la salud cardiovascular.' },
-  { id: '8', name: 'Bebida Isotónica Flash', price: 12.99, category: 'Energía', image: '', description: 'Reposición inmediata de electrolitos y energía.' },
-  { id: '9', name: 'L-Glutamina Micronizada', price: 22.00, category: 'Aminoácidos', image: '', description: 'Apoyo fundamental para la recuperación y el sistema inmune.' },
-  { id: '10', name: 'Caseina Micelar Nocturna', price: 48.99, category: 'Proteínas', image: '', description: 'Proteína de liberación lenta ideal para antes de dormir.' }
+  { id: '1', name: 'Proteína Whey ISO', price: 55.99, category: 'Proteínas', url: '/images/products/prote.jpg', description: 'Aislado de proteína de suero de alta pureza.' },
+  { id: '2', name: 'Creatina Monohidratada', price: 29.99, category: 'Aminoácidos', url: '/images/products/creatina.jpg', description: 'Mejora tu fuerza y recuperación muscular.' },
+  { id: '3', name: 'Pre-Entreno Explosivo', price: 34.99, category: 'Energía', url: '/images/products/pre.jpg', description: 'Enfoque máximo para tus entrenamientos intensos.' },
+  { id: '4', name: 'Multivitamínico Pro', price: 19.99, category: 'Salud', url: '/images/products/vulti.jpg', description: 'Todas las vitaminas y minerales esenciales.' },
+  { id: '5', name: 'BCAA 2:1:1 Recovery', price: 24.99, category: 'Aminoácidos', url: '/images/products/creatina.jpg', description: 'Aminoácidos ramificados para proteger la masa muscular.' },
+  { id: '6', name: 'Proteína Vegana Organics', price: 42.50, category: 'Proteínas', url: '/images/products/prote.jpg', description: 'Mezcla premium de guisante y arroz de origen orgánico.' },
+  { id: '7', name: 'Omega 3 Ultra Pure', price: 15.99, category: 'Salud', url: '/images/products/vulti.jpg', description: 'Ácidos grasos esenciales para la salud cardiovascular.' },
+  { id: '8', name: 'Bebida Isotónica Flash', price: 12.99, category: 'Energía', url: '/images/products/pre.jpg', description: 'Reposición inmediata de electrolitos y energía.' },
+  { id: '9', name: 'L-Glutamina Micronizada', price: 22.00, category: 'Aminoácidos', url: '/images/products/creatina.jpg', description: 'Apoyo fundamental para la recuperación y el sistema inmune.' },
+  { id: '10', name: 'Caseina Micelar Nocturna', price: 48.99, category: 'Proteínas', url: '/images/products/prote.jpg', description: 'Proteína de liberación lenta ideal para antes de dormir.' }
 ];
 
 
